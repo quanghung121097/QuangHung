@@ -1,0 +1,23 @@
+.item{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 1px solid grey;
+}
+.item:hover{
+	border: 1px solid orange;
+}
+.chu{
+	color: orange;
+}
+.so{
+	color: red;
+}
+.chu:hover{
+	color: blue;
+	cursor: pointer;
+}
+.so:hover{
+	color: blue;
+	cursor: pointer;
+}
