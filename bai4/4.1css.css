@@ -1,0 +1,302 @@
+body{
+	background: url('bg.jpg') no-repeat;
+	width: 100%;
+
+}
+.zent{
+	padding-left: 10px;
+	font-size: 40px;
+	float: left;
+	list-style: none;
+	padding-top: -20px;
+}
+.menuHD{
+	height: 60px;
+}
+.menuHD>.item{
+	float: left;
+	list-style: none;
+	left: 600px;
+	padding-right: 20px;
+	padding-left: 20px;
+	position: relative;
+	margin-top: 15px;
+
+}
+.menuHD>.item>a{
+	text-decoration: none;
+	color: black;
+}
+.menuHD>.item:hover{
+	background: #D8D8D8;
+	border-radius: 10px;
+}
+#conten{
+	margin-top: 50px;
+}
+.left{
+	width: 20%;
+	float: left;
+}
+.left>li{
+	height: 40px;
+	list-style: none;
+	padding-top: 15px;
+	
+}
+.left>li>a{
+	text-decoration: none;
+	color: black;
+}
+.left>li:hover {
+	background: #D8D8D8;
+	border-radius: 5px;
+	text-align: center;
+}
+.center{
+	padding-left: 20px;
+	width: 65%;
+	float: left;
+	height: 1000px;
+}
+img{
+	width: 200px;
+	height: 270px;}
+.tech{
+	position: relative;
+	padding-right: 20px;
+	float: left;
+}
+.bgip{
+	width: 200px;
+	height: 300px;
+	background:#E6E6E6;
+	position: absolute;
+}
+.ip{
+	top: 30px;
+	z-index: 5;
+	position: absolute
+}
+.textip{
+	top: 250px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.6;
+	z-index: 10;
+	color: white;
+	text-align: center;
+}
+.travel{
+	position: relative;
+	padding-right: 20px;
+	left:230px;
+
+}
+.bgtv{
+	width: 200px;
+	height: 300px;
+	background:#E6E6E6;
+	position: absolute;
+}
+.tv{
+	top: 30px;
+	z-index: 5;
+	position: absolute
+}
+.texttv{
+	top: 250px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.6;
+	z-index: 10;
+	color: white;
+	text-align: center;
+}
+.photo{
+	position: relative;
+	padding-right: 20px;
+	left: 460px;
+}
+.bgpt{
+	width: 200px;
+	height: 300px;
+	background:#E6E6E6;
+	position: absolute;
+}
+.pt{
+	top: 30px;
+	z-index: 5;
+	position: absolute
+}
+.textpt{
+	top: 250px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.6;
+	z-index: 10;
+	color: white;
+	text-align: center;
+}
+.world{
+	position: relative;
+	padding-right: 20px;
+	float: left;
+	top: 330px;
+}
+.bgfw{
+	width: 200px;
+	height: 300px;
+	background:#E6E6E6;
+	position: absolute;
+}
+.fw{
+	top: 30px;
+	z-index: 5;
+	position: absolute
+}
+.textfw{
+	top: 250px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.6;
+	z-index: 10;
+	color: white;
+	text-align: center;
+}
+.movie{
+	position: relative;
+	padding-right: 20px;
+	top: 330px;
+	left: 230px;
+}
+.bgmv{
+	width: 200px;
+	height: 300px;
+	background:#E6E6E6;
+	position: absolute;
+}
+.mv{
+	top: 30px;
+	z-index: 5;
+	position: absolute
+}
+.textmv{
+	top: 250px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.6;
+	z-index: 10;
+	color: white;
+	text-align: center;
+}
+.cooking{
+	position: relative;
+	padding-right: 20px;
+	float: left;
+	top: 330px;
+	left: 460px;
+}
+.bgck{
+	width: 200px;
+	height: 300px;
+	background:#E6E6E6;
+	position: absolute;
+}
+.ck{
+	top: 30px;
+	z-index: 5;
+	position: absolute
+}
+.textck{
+	top: 250px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.6;
+	z-index: 10;
+	color: white;
+	text-align: center;
+}
+.fashion{
+	position: relative;
+	padding-right: 20px;
+	float: left;
+	top: 660px;
+}
+.bgfa{
+	width: 200px;
+	height: 300px;
+	background:#E6E6E6;
+	position: absolute;
+}
+.fa{
+	top: 30px;
+	z-index: 5;
+	position: absolute
+}
+.textfa{
+	top: 250px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.6;
+	z-index: 10;
+	color: white;
+	text-align: center;
+}
+#footer{
+	float: left;
+	height: 100px;
+	margin-top: 30px;
+}
+.aaa>li{
+	list-style: none;
+	float: left;
+	padding-right: 30px;
+
+}
+a:hover{
+	background: #D8D8D8;
+	border-radius: 10px;
+}
+.tech:hover div{
+	background: #0174DF;
+	box-shadow: 5px 5px 4px #000;
+}
+.travel:hover div{
+	background: #0174DF;
+	box-shadow: 5px 5px 4px #000;
+}
+.photo:hover div{
+	background: #0174DF;
+	box-shadow: 5px 5px 4px #000;
+}
+.world:hover div{
+	background: #0174DF;
+	box-shadow: 5px 5px 4px #000;
+}
+.movie:hover div{
+	background: #0174DF;
+	box-shadow: 5px 5px 4px #000;
+}
+.cooking:hover div{
+	background: #0174DF;
+	box-shadow: 5px 5px 4px #000;
+}
+.fashion:hover div{
+	background: #0174DF;
+	box-shadow: 5px 5px 4px #000;
+}
