@@ -1,0 +1,412 @@
+.clear{
+	clear: both;
+}
+body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.box{
+	right: 10px ;
+	top: 500px;
+	font-size: 40px;
+	position: fixed;
+	color: #BDBDBD;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.header{
+	width: 100%;
+	background:#78b43d ;
+}
+#menu{
+	height: 50px;
+	padding-left: 140px;
+	color: white;
+	width: 80%;
+	margin-top: 0;
+}
+#menu>.item{
+	font-size: 11px;
+	float: left;
+	height: 100%;
+	list-style: none;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+#item1{
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+#menu>.item:hover{
+	background: #456921;
+}
+#menu>.item>a:hover {
+	color: white;
+	border-bottom: 1px solid white;
+}
+.submenu{
+	display: none;
+	padding-left: 0;
+	position: absolute;
+	width: 200px;
+	background: #78b43d;
+	left: 0;
+}
+
+#menu>.item:hover .submenu{
+	display: block;
+}
+.submenu>li{
+	height: 80%;
+	list-style: none;
+	padding-left:5px;
+	border-bottom: 1px solid white;
+}
+.submenu li:hover{
+	background: #456921 !important;
+}
+.submenu0>.xem{
+	list-style: none;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+.submenu0>.xem:hover{
+	background: blue;
+}
+.submenu0>.xem:hover a{
+	text-decoration: none;
+	color: black;
+}
+.submenu1{
+	display: none;/*an menu*/
+	position: absolute;
+	background: #78b43d;
+	width: 200px;
+	left: 100%;
+	margin-top: -50px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.submenu0>.xem:hover .submenu1{
+	display: block;
+}
+.submenu1>li{
+	list-style: none;
+	border-bottom: 1px solid white;
+	height: 100%;
+}
+.submenu0{
+	display: none;/*an menu*/
+	padding-left:0;
+	margin-right: 0;
+	position: absolute;
+	width: 200px;
+	background: #78b43d;
+	left: 0;
+}
+
+#menu>.item:hover .submenu0{
+	display: block;
+}
+.submenu0>li{
+	list-style: none;
+	padding-left:5px;
+	border-bottom: 1px solid white;
+}
+.submenu0 li:hover{
+	background: #456921!important;
+}
+#seach{
+	border: 1px solid white;
+	border-radius: 50%;
+	margin-left: 200px;
+}
+.left{
+	margin-left: 80px;
+	float: left;
+	width: 850px;
+}
+.news{
+	background:;
+	width: 400px;
+	float: left;
+	margin-right:7px; 
+}
+.top>font{
+	border-radius: 5px;
+	color: black;
+	background: #D8D8D8;
+	padding: 2px 2px 2px;
+}
+.top>font:hover{
+	color: #78b43d;
+	cursor: pointer;
+}
+b {
+	cursor: pointer;
+}
+b:hover{
+	color: #78b43d;
+	cursor: pointer;
+}
+.new1{
+	background:#78b43d !important;
+	color: white !important;
+}
+.new1:hover{
+	color: black !important;
+	cursor: pointer;
+}
+.photo{
+	float: left;
+}
+.photo>img{
+	float: left;
+	height: 110%;
+}
+.photo>div{
+	float: left;
+	width: 60%;
+	padding-left: 20px;
+}
+.link>i{
+	color:#78b43d; 
+}
+.link{
+	color: #A4A4A4;
+}
+.photo>div>.link:hover{
+	cursor: pointer;
+	color: #58FA82;
+	border-bottom: 1px #58FA82;
+}
+.bot{
+	color: black;
+	font-size: 15px;
+}
+.text>i{
+	font-size: 5px;
+	color: #78b43d;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#iconVD>i{
+	font-size: 10px;
+	color: #78b43d;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#iconCMR>i{
+	font-size: 10px;
+	color: #2E9AFE;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.bot>div>p:hover{
+	cursor: pointer;
+	color:#78b43d; 
+}
+.bot1{
+	background: #eaf8d2;	
+}
+#botfull{
+	overflow: auto;
+	height: 90px;
+	margin-top: 15px;
+}
+.bot2{
+	padding-top: 5px;
+	background: #CCFF99;
+}
+.right{
+	float:  left;
+	width: 330px;
+}
+.photoright{
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.photoright>img{
+	float: left;
+}
+.photoright>div{
+	float: left;
+	width: 60%;
+	padding-left: 20px;
+}
+.photoright>div:hover{
+	color: #78b43d;
+	cursor: pointer;
+}
+.photoright>font{
+	float: left;
+	width: 60%;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+.photoright>b:hover {
+	color: #78b43d;
+	cursor: pointer;
+}
+.botright>p{
+	font-size: 15px;
+	width: 300px;
+
+}
+.botright>p:hover{
+	color: #78b43d;
+	cursor: pointer;
+}
+.button>.button1{
+	background: #DF01A5;
+	border: 1px solid #DF01A5;
+}
+.video{
+	float: left;
+	margin-right:7px;
+	height: 540px;
+}
+
+.videoleft{
+	float: left;
+	width: 60%;
+}
+.videoright{
+	float: left;
+	width: 330px;
+	height: 480px;
+	overflow: auto;
+}
+.play{
+	float:left  ;
+	margin-bottom: 10px;
+	position: relative;
+}
+.play>i{
+	position: absolute;
+	font-size: 30px;
+	z-index: 1;
+	color: white;
+	padding-top: 50px;
+	padding-left: 70px;
+}
+.play>img{
+	width: 60%;
+	float: left;
+}
+.play>div{
+	width: 30%;
+	float: left;
+	padding-left: 10px;
+}
+.play>div:hover{
+	color: #78b43d;
+	cursor: pointer;
+}
+.news2{
+	background:;
+	width: 100%;
+	float: left;
+	margin-right:7px; 
+}
+.bot3{
+	padding-left: 130px;
+	color: black;
+	font-size: 15px;
+}
+.information{
+	float: left;
+	width: 135%;
+}
+.menuinfo{
+	width: 100%;
+	background: #F6D8CE;
+	height: 220px;
+	margin-top: 0;
+}
+.baby{
+	float: left ;
+	width: 30%;
+	padding-left: 27px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+.baby>div>span{
+	float: right;
+	width: 50%;
+	padding-right: 20px;
+
+}
+.baby>div>span:hover{
+	color: #78b43d;
+	cursor: pointer;
+}
+.information>div>font>i{
+	float: right ;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+.information>div>font>i:hover{
+	cursor: pointer;
+}
+.footer{
+	width: 100%;
+}
+.footertop{
+	width: 100%;
+	height: 150px;
+	background: #EBEBEB;
+}
+.footertop>div{
+	padding-left: 100px;
+}
+.footertop>div>div{
+	float: left;
+	padding-left: 50px;
+}
+.footertop>div>div>p:hover{
+	color: #78b43d;
+	cursor: pointer;
+}
+.footermenu{
+	width: 100%;
+	background: #78b43d;
+	height: 40px;
+}
+.footermenu>div{
+	padding-top: 10px;
+	height: 20px;
+	padding-left: 400px;
+}
+.footermenu>div>span{
+	color: white;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right: 2px solid white;
+}
+.footermenu>div>span:hover{
+	color: #298A08;
+	cursor: pointer;
+}
+.footerbot{
+	color: #848484;
+	font-size: 15px;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+.footerbot>div{
+	padding-left: 30px;
+	padding-right: 30px ;
+}
