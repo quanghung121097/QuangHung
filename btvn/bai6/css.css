@@ -1,0 +1,182 @@
+*{
+	margin:5px 0px 0px 0px;
+	padding:0px;
+}
+#header{
+	width: 380px;
+	height: 70px;
+	text-align: center;
+	margin: 0 auto;
+}
+#header .menu ul li{
+	float: left;
+	list-style: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#header .menu ul li a{
+	color: #A4A4A4;
+	text-decoration: none;
+}
+#header .menu ul li a:hover{
+	opacity: 0.8;
+}
+#header .menu ul li img{
+	width: 110px;
+}
+#header .menu .menu1 li{
+	margin-top: 25px;
+	border-top: 1px solid #A4A4A4;
+	border-bottom: 1px solid #A4A4A4;
+}
+#content{
+	width: 100%;
+}
+#content .content0{
+	background: #E6E6E6;
+	width: 65%;
+	margin: 0 auto;
+
+}
+#content .content1{
+	padding-top: 40px;
+
+}
+#content .content1 h1{
+	color: blue;
+	text-align: center;
+}
+#content .content1 p{
+	font-size: 15px;
+	color: #BDBDBD;
+	text-align: center;
+}
+#content .content2 img{
+	width: 99%;
+	border: 3px solid white;
+}
+
+#content .content2 h4 a{
+	color: #61bfb1;
+	text-decoration: none;
+}
+.content2 .photo i{
+	float:right;
+	color: grey;
+}
+.content2 .photo p{
+	color: #BDBDBD;
+	font-size: 15px;
+}
+.photo{
+	width: 29%;
+	margin: 0 2%;
+	display: inline-block;
+}
+.content0 p{
+	font-size: 15px;
+	color: #c5c3c3;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+ 
+}
+#content .content3{
+	width: 65%;
+	margin: 0 auto;
+}
+.content3 .left{
+	float: left;
+	width: 60%;
+	margin: 0 1%;
+}
+.content3 h3{
+	color: #61bfb1;
+}
+.content3 .left p a{
+	color: #A9E2F3;
+}
+.content3 p{
+	color: #c5c3c3;
+	font-size: 15px;
+	padding-bottom: 15px;
+}
+.content3 .right{
+	float: right;
+	margin: 0 1%;
+}
+.content3 .right p i{
+	padding: 7px;
+	background: #2E64FE;
+	color: #fff;
+	margin:10px 10px;
+	border-radius: 50%;
+}
+#footer{
+	border-top: 2px solid black;
+	background: #81DAF5;
+	width: 65%;
+	margin: 0 auto;
+}
+#footer >div{
+	padding: 0px 10px;
+	color: #fff;
+}
+#footer .foottop h3{
+	margin-top: 20px;
+}
+#footer .foot{
+	padding-bottom: 20px;
+}
+#footer .foot p{
+	margin-top:10px; 
+}
+#footer .foot input{
+	width: 100%;
+}
+#footer .foot textarea{
+	width: 100%;
+	height: 80px;
+}
+#footer .foot button{
+	padding: 5px;
+	font-size: 15px;
+	margin-top: 10px;
+	color: white;
+	background-color: #084B8A;
+}
+
+@media (min-width: 480px) and (max-width: 700px){
+	.photo{
+		width: 45%;
+	}
+	.content3 .right{
+		width: 100%;
+		float: none;
+	}
+	.content3 .left{
+		width: 100%;
+		float: none;
+	}
+}
+@media (max-width: 480px) {
+ 
+	.menu1{
+		display: none;
+	}
+	.photo{
+		width: 97%;
+	}
+	.content3 .right{
+		width: 100%;
+		float: none;
+	}
+	.content3 .left{
+		width: 100%;
+		float: none;
+	}
+
+	#header{
+		width: 120px;
+	}
+}
