@@ -1,0 +1,22 @@
+body{
+	background: url('bg.jpg') no-repeat;
+}
+div{
+	display: inline-block;
+}
+.section{
+	left: 8px;
+	margin-top: 0;
+	background-color: white;
+	position: absolute;
+	padding: 10px ;
+	width: 300px;
+	display: none;
+}
+.tab{
+	margin-bottom: 0;
+	padding: 15px;
+	background-color: #BDBDBD;
+	color: white;
+	cursor: pointer;
+}
