@@ -7,7 +7,7 @@ for (var i = 0; i < tab.length; i++) {
 		 section[i].style.display = "none";
 		}
 		this.nextElementSibling.style.display = "block";
-		for (var j = 0; j < section.length; j++) {
+		for (var j = 0; j < tab.length; j++) {
 		 tab[j].style.background  = "#BDBDBD";
 		 tab[j].style.color="white"
 		}
