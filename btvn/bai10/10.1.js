@@ -2,10 +2,10 @@
 document.getElementsByClassName('submit')[0].addEventListener('click',function(){
 	//kiểm tra tên
 	var name=document.getElementsByClassName('name')[0].value;
-	if (name=="") {
-		document.getElementsByClassName('check_name')[0].innerHTML="Tên không được để trống"
-	} else {
+	if (name.match(nameno)) {
 		document.getElementsByClassName('check_name')[0].innerHTML=""
+	} else {
+		document.getElementsByClassName('check_name')[0].innerHTML="Tên gồm [a-z] & có 8 ký tự trở lên "
 	}
 	//kiểm tra Email
 	var email=document.getElementsByClassName('email')[0].value;
@@ -52,6 +52,8 @@ document.getElementsByClassName('submit')[0].addEventListener('click',function()
 
 	}
 })
+// check_name
+ var nameno=/[A-Za-z]{8,}/
 // check_pass
 var passno = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/
 // check_sđt
