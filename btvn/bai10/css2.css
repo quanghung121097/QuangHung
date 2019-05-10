@@ -1,0 +1,72 @@
+body{
+	background: url('img/Wiki-background.jpg');
+}
+.container{
+	width: 70%;
+	margin: 5% auto;
+	position: relative;
+}
+.item{
+	position: relative;
+	display: none;
+}
+.item>img{
+	width: 100%;
+	height: 500px;
+	border-radius: 20px;
+}
+.item>p{
+	position: absolute;
+	bottom: -50px;
+	text-align: center;
+	width: 100%;
+	color:#424242;
+	font-size: 20px;
+}
+.at{
+	display: block;
+}
+
+#prev{
+	position: absolute;
+	top: 50%;
+	left:20px;
+	width: 50px;
+	height: 50px;
+	background: #424242;
+	opacity: 0.5;
+	color: #BDBDBD;	
+	border-radius: 5px;
+}
+#next{
+	position: absolute;
+	top: 50%;
+	right:10px;
+	width: 50px;
+	height: 50px;
+	background: #424242;
+	opacity: 0.5;
+	color: #BDBDBD;
+	border-radius: 5px;
+}
+.but{
+	z-index: 2;
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	text-align: center;
+}
+.but> p{
+	width: 20px; 
+	height: 20px;
+	background: #A4A4A4;
+	opacity: 0.5;
+	border-radius: 50%;
+	display: inline-block;
+}
+.but>.pt{
+	background-color: #00FF00 ;
+}
+i{
+	font-size: 30px;
+}

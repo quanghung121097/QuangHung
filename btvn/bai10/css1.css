@@ -1,0 +1,41 @@
+body{
+	background: url('img/bg.png');
+}
+.content{
+	margin: 5% auto;
+	width: 65%;
+	border: 1px solid #01DFD7;
+	border-radius: 20px;
+	color: #40FF00;
+}
+.line>input{
+	text-indent: 25px;
+	height: 20px;
+	border-radius: 5px;
+	width: 30%;
+	
+	display: inline-block;
+}
+.check_gt{
+	margin-left: 148px;
+}
+p{
+	width: 30%;
+	display: inline-block;
+}
+span{
+	padding-left: 10px;
+	color: red;
+}
+.button{
+	margin-left: 37%;
+}
+.button>input{
+	border: 2px solid #01DFD7;
+	color: white;
+	background: #F78181;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 7px 20px;
+
+}
