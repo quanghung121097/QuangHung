@@ -1,0 +1,45 @@
+
+body{
+  background: url('img/bg.png')
+}
+*{
+  box-sizing: border-box;
+}
+#header{
+  font-size: 50px;
+
+  margin-left: 200px;
+}
+#content{
+  margin: 5% auto;
+}
+#content h1 {
+  border-radius: 10px;
+  color: #088A08;
+  margin: 0 auto;
+  width: 70%;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #848484;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.accordion{
+  border-radius: 10px;
+  padding-top: 30px;
+  color: white;
+  margin-left: 240px;
+  padding-left: 30px;
+  height: 150px;
+  width: 65%;
+  background: #848484;
+}
+i{
+  left: 220px;
+  margin-top: 15px;
+  position: absolute;
+  z-index: 2;
+  font-size: 30px;
+  color: #F7BE81;
+}
