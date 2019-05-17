@@ -1,0 +1,53 @@
+body{
+	background: lavender;
+}
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+div{
+	width: 55%;
+	height: 50px;
+}
+.menu{
+	width: 100%;
+	line-height: 50px;
+	
+}
+ul{
+	list-style: none;
+	padding-inline-start: 0px;
+}
+a{
+	text-decoration: none;
+	color: rgb(189, 243, 255);
+}
+.menu li{
+	text-align: center;
+	width: 150px;
+	background: rgb(12, 113, 143);
+	float: left;
+	position: relative;
+}
+.menu li:hover{
+	cursor: pointer;
+	background: rgb(250, 156, 20);;
+}
+.menu ul{
+	
+	display: none;
+	position: absolute;
+}
+.menu ul li{
+	width: 200px;
+	
+}
+.menu ul ul{
+
+	left: 200px;
+	top: -3px;
+
+}
+.menu li ul{
+	border-top: 3px solid rgb(250, 156, 20);
+}

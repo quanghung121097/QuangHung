@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.min.css">
+
+</head>
+<body>
+	<div class="header">
+		<span>AVENGERS</span>
+		<i>End Game</i>
+		<hr color="#BDBDBD" width="29%">
+	</div>
+	<div class="content">
+		<a data-fancybox="gallery" href="img/iron-man-avengers.jpg" data-caption="I am Iron Man"><img src="img/iron-man-avengers.jpg" alt=""></a>
+		<a data-fancybox="gallery" href="img/captain-america-avengers.jpg" data-caption="I am Captanin America"><img src="img/captain-america-avengers.jpg" alt=""></a>
+		<a data-fancybox="gallery" href="img/thor-avengers-endgame.jpg" data-caption="I am Thor Odin Son"><img src="img/thor-avengers-endgame.jpg" alt=""></a>
+		<a data-fancybox="gallery" href="img/black-widow-avengers.jpg" data-caption="I am black-widow"><img src="img/black-widow-avengers.jpg" alt=""></a>
+		<a data-fancybox="gallery" href="img/hulk-avengers.jpg" data-caption="I am Hulk"><img src="img/hulk-avengers.jpg" alt=""></a>
+		<a data-fancybox="gallery" href="img/hawkeye-avengers.jpg" data-caption="I am Hawkeye"><img src="img/hawkeye-avengers.jpg" alt=""></a>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.lightbox.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+   		$('.content a').fancybox();
+});
+	</script>
+</body>
+</html>

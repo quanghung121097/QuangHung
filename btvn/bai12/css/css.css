@@ -1,0 +1,44 @@
+body{
+	background: url('../img/bg.png');
+}
+@font-face{
+	src: url('../font/SVN-Avengeance.otf');
+	font-family: svn;
+}
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.header{
+	font-family: svn;
+	text-align: center;
+	
+	color: #FA5858;
+}
+.header>span{
+	margin-bottom: 0px;
+	font-size: 90px;
+}
+.header>i{
+	color: #BDBDBD;
+	font-size: 20px;
+}
+hr{
+	margin-left: 500px;
+}
+.content{
+   width: 1200px;
+   margin: 0 auto;
+   margin-top: 150px;
+   display: flex;
+}
+.content a{
+   display: block;
+   width: 30%;
+   padding: 5px;
+}
+.content a img{
+   width: 100%;
+   border: 2px solid white;
+   border-radius: 10%;
+}
