@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+}
+.menu{
+	background: #424242;
+	height: 45px;
+}
+.menu ul li a{
+	color: white;
+}
+.menu ul li a:hover{
+	color: #FE642E;
+}
+.left{
+	float: left;
+	padding-left: 20px;
+}
+.right{
+	float: right ;
+	padding-right: 20px;
+}
+.right .bar{
+	display: none;
+}
+.img{
+	height: auto;
+	position: relative;
+}
+.content{
+	text-align: center;
+	color: white;
+	position:absolute;
+	top: 50%;
+}
+.jumbotron{
+	background-color: transparent;
+}
+.text{
+	background: #FE642E;
+	text-align: center;
+	color: white;
+}
+
+.text p{
+	font-size: 10px;
+}
+.icon{
+	text-align: center;
+	padding: 70px 150px;
+}
+.icon i{
+	color: #FE642E;
+	font-size: 25px;
+}
+.icon p{
+	font-size: 10px;
+}
+.row .img1{
+	padding: 0px;
+}
+
+.download{
+	text-align: center;
+	padding: 70px 150px;
+	background: #424242;
+	color: white;
+}
+.download button{
+	border: none;
+	border-radius: 15px;
+	padding: 3px 10px;
+	background: white;
+}
+.foot{
+	text-align: center;
+	padding: 70px 250px;
+}
+.foot p{
+	font-size: 10px;
+}
+.foot .row i{
+	font-size: 20px;
+}
+.foot .row p a{
+	color: #333333;
+}
+.foot .row p a:hover{
+	color: #FE642E;
+}
+@media(min-width: 576px) and (max-width: 767px){
+	.menu{
+		background: #D8D8D8; 
+		
+	}
+	.menu ul li a{
+	color: #FE642E;
+}
+	.menu ul li.right{
+		display: none;
+
+	}
+	.right .bar{
+		display: block;
+	}
+	.icon{
+		text-align: center;
+		padding: 30px;
+	}
+	.down{
+		padding: 50px;
+	}
+	.foot{
+		text-align: center;
+		padding: 40px;
+	}
+}
+@media( max-width: 576px){
+	.menu{
+		background: #D8D8D8; 
+		
+	}
+	.menu ul li a{
+	color: #FE642E;
+}
+	.menu ul li.right{
+		display: none;
+	}
+	.right .bar{
+		display: block;
+	}
+	.icon{
+		text-align: center;
+		padding: 30px;
+	}
+	.down{
+		padding: 30px;
+	}
+	.foot{
+		text-align: center;
+		padding: 30px;
+	}
+}
